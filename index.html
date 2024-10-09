@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Weather App</title>
   <!-- css links -->
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="style/utility.css">
   <link rel="stylesheet" href="style/modernize.css">
+  <link rel="stylesheet" href="style/component/header.css">
+  <link rel="stylesheet" href="style/component/footer.css">
+  <link rel="stylesheet" href="style/component/home.css">
   <!-- script links -->
-   <script src = "js/main.js" defer></script>
-   <!-- font links -->
-      <!-- Montserrat -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-      <!-- hind -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="js/main.js" defer></script>
+  <!-- font links -->
+  <!-- Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- hind -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
+  <main class="main__container">
+    <header class="header__container container">
+      <div class="sub__header">
+        <h1 class="logo__text">
+          WeatherCheck
+        </h1>
+      </div>
+    </header>
+    <section class="content__container container">
+      <h1 class="header__text">
+        The skies is full of mystery check it out!
+      </h1>
+      <div class="form__container">
+        <input type="text" name="cityName" id="inputtedCity">
+        <button class="get__btn primary__btn">Get Weather</button>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>

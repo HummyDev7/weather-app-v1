@@ -8,8 +8,7 @@
 
 .primary__btn {
   background-color: var(--primary-clr);
-  padding: var(--size-16px) var(--size-56px);
+  padding: var(--size-16px) var(--size-48px);
   font-weight: 500;
   border-radius: var(--size-8px);
-  align-self: flex-start;
 }

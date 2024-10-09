@@ -1,0 +1,32 @@
+.content__container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-100px);
+  align-items: center;
+  margin-top: 172px;
+}
+
+.form__container {
+  display: flex;
+  gap: var(--size-48px);
+  align-items: center;
+}
+
+#inputtedCity {
+  min-width: 384px;
+  height: var(--size-48px);
+  margin: 8px 0 0;
+  padding: 0 var(--size-16px);
+  border: solid 1px #e2e8f0;
+  border-radius: var(--size-6px);
+  outline: none;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.header__text {
+  color: var(--base-black);
+  font-size: var(--size-40px);
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
