@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--size-60px);
+  padding-right: var(--size-60px);
+}
+
+.primary__btn {
+  background-color: var(--primary-clr);
+  padding: var(--size-16px) var(--size-56px);
+  font-weight: 500;
+  border-radius: var(--size-8px);
+  align-self: flex-start;
+}
