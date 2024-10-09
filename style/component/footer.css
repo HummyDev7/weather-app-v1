@@ -1,0 +1,16 @@
+.footer__container {
+  height: var(--size-76px);
+  background-color: var(--base-black);
+  display: flex;
+  align-items: center;
+  margin-top: 108px;
+}
+
+.sub__footer p {
+  color: var(--base-white);
+}
+
+.sub__footer {
+  display: flex;
+  gap: 53rem;
+}

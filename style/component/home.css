@@ -1,7 +1,7 @@
 .content__container {
   display: flex;
   flex-direction: column;
-  gap: var(--size-100px);
+  gap: var(--size-72px);
   align-items: center;
   margin-top: 172px;
 }
@@ -26,7 +26,7 @@
 .header__text {
   color: var(--base-black);
   font-size: var(--size-40px);
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
   padding: 0;
 }
