@@ -15,12 +15,12 @@
   <!-- script links -->
   <script src="js/main.js" defer></script>
   <!-- font links -->
-  <!-- Montserrat -->
+    <!-- Montserrat -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <!-- hind -->
+    <!-- hind -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -42,6 +42,37 @@
       <div class="form__container">
         <input type="text" name="cityName" id="inputtedCity">
         <button class="get__btn primary__btn">Get Weather</button>
+      </div>
+      <div class="weather__container">
+        <div class="weather__info">
+          <h2 class="resolvedAddress"></h2>
+          <p class="conditions">
+            <img src="" alt="" class="condition__img">
+          </p>
+          <h1 class="temp removeExtraSpacingh1"></h1>
+        </div>
+        <div class="conditions__container">
+          <div class="condition__one condition__info">
+            <h3 class="sub__text">Feels Like</h3>
+            <p class="feelsLike__text info__text"></p>
+          </div>
+          <div class="condition__two condition__info">
+            <h3 class="sub__text">Wind</h3>
+            <p class="wind__text info__text"></p>
+          </div>
+          <div class="condition__three condition__info">
+            <h3 class="sub__text">Humidity</h3>
+            <p class="humidity__text info__text"></p>
+          </div>
+          <div class="condition__four condition__info">
+            <h3 class="sub__text">Visibility</h3>
+            <p class="visibility__text info__text"></p>
+          </div>
+          <div class="condition__five condition__info">
+            <h3 class="sub__text">Cloudiness</h3>
+            <p class="cloudCover__text info__text"></p>
+          </div>
+        </div>
       </div>
     </section>
     <footer class="footer__container container">

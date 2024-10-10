@@ -12,3 +12,8 @@
   font-weight: 500;
   border-radius: var(--size-8px);
 }
+
+.removeExtraSpacingh1 {
+  margin: 0;
+  padding: 0;
+}
